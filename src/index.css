@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Prata", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom Soft Grain Overlay */
+.bg-grain {
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  filter: contrast(150%) brightness(100%);
+}
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
