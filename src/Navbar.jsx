@@ -40,11 +40,12 @@ const Navbar = () => {
           
           {/* Logo: XK - ALWAYS VISIBLE */}
           <button 
-            onClick={scrollToTop}
-            className="text-xl font-light tracking-[0.5em] text-white/80 hover:text-red-500 transition-all duration-500 cursor-pointer"
-          >
-            XK
-          </button>
+  onClick={scrollToTop}
+  className="text-xl font-light tracking-[0.5em] text-white/80 hover:text-red-500 transition-all duration-500 cursor-pointer font-serif italic"
+>
+  XK
+</button>
+
 
           {/* Navigation Items - HIDDEN ON MOBILE (hidden), VISIBLE ON DESKTOP (md:flex) */}
           <div className="hidden md:flex gap-10 items-center">
